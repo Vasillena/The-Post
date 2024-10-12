@@ -1,6 +1,7 @@
 import { AmericanTypewriter, LemonTuesday, firaSans } from "../utils/fonts";
 
 import Image from "next/image";
+import MainButton from "./MainButton";
 import decor from "@/public/decor-1.png";
 
 export function Second(): JSX.Element {
@@ -17,7 +18,7 @@ export function Second(): JSX.Element {
               Коктейлите ни не са просто напитки, а истории, написани от
               майстори на миксологията.
             </p>
-            <p className={`text-xl ${firaSans.className}`}>
+            <p className={`mb-12 text-xl ${firaSans.className}`}>
               В Bar “The Post” всеки коктейл носи почерка на бармана – вдъхновен
               от класиката, но винаги с нещо неочаквано. От свежи комбинации,
               които ще ти влязат като писмо в летен ден, до по-силни вкусове,
@@ -25,7 +26,7 @@ export function Second(): JSX.Element {
               които разказват истории с всяка глътка. Готов ли си да чуеш
               следващата?
             </p>
-            <button>СВЪРЖИ СЕ С НАС</button>
+            <MainButton />
           </div>
           <div className="justify-self-end">
             <Image src={decor} alt="Cocktails" className="w-[580px] h-auto" />

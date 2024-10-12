@@ -1,6 +1,7 @@
 import { AmericanTypewriter, LemonTuesday } from "../utils/fonts";
 
 import Image from "next/image";
+import MainButton from "./MainButton";
 import hero1 from "@/public/hero.png";
 import hero2 from "@/public/hero-2.png";
 
@@ -39,7 +40,7 @@ export function Hero(): JSX.Element {
               ... а коктейлите разказват истории, които ще искаш да чуеш отново
               и отново...
             </p>
-            <button>СВЪРЖИ СЕ С НАС</button>
+            <MainButton />
           </div>
         </div>
       </section>
