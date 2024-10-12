@@ -10,7 +10,16 @@ import logoSavy from "@/public/savy.svg";
 
 export default function Footer(): JSX.Element {
   return (
-    <div className="max-w-screen bg-[#e4ded4] mt-20">
+    <div
+      className="max-w-screen mt-20"
+      style={{
+        backgroundImage: 'url("/bg.jfif")',
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+      }}
+    >
       <div className="max-w-[1440px] mx-auto flex items-end mb-12 px-2">
         <div>
           <Image

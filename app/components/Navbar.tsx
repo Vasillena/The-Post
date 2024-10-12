@@ -54,7 +54,16 @@ export default function Navbar(): JSX.Element {
 
   return (
     <div className="max-w-[1440px]">
-      <div className="max-w-[1440px] hidden fixed top-0 left-0 right-0 mx-auto md:block z-50 bg-[#e4ded4]">
+      <div
+        className="max-w-[1440px] hidden fixed top-0 left-0 right-0 mx-auto md:block z-50"
+        style={{
+          backgroundImage: 'url("/navbar.jfif")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "fixed",
+        }}
+      >
         <div className="px-4 sm:px-9 lg:px-16 flex py-3 justify-between items-center">
           <div className="w-12 h-12 flex justify-center items-center">
             {/* <SwitchTheme /> */}

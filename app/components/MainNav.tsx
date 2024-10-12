@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-expressions */
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef } from "react";
@@ -81,7 +80,7 @@ export default function MainNav({
               handleScroll(link.id, link.href);
             } else {
               router.push(link.href);
-              closeMenu && closeMenu();
+              closeMenu?.();
             }
           }}
         >
@@ -99,7 +98,7 @@ export default function MainNav({
               handleScroll(link.id, link.href);
             } else {
               router.push(link.href);
-              closeMenu && closeMenu();
+              closeMenu?.();
             }
           }}
         >
