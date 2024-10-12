@@ -1,21 +1,20 @@
 "use client";
 
-// import Image from "next/image";
-
+import Image from "next/image";
 import Link from "next/link";
+import logo from "@/public/logo.png";
+import logoSavy from "@/public/savy.svg";
 
-// import logoLight from "@/public/logo.svg";
-// import logoSavy from "@/public/savy.svg";
 // import socials1 from "@/public/socials-4.png";
 // import socials2 from "@/public/socials-3.png";
 
 export default function Footer(): JSX.Element {
   return (
-    <div className="max-w-screen dark:bg-[#222927] bg-[#f2efea]">
+    <div className="max-w-screen bg-[#e4ded4] mt-20">
       <div className="max-w-[1440px] mx-auto flex items-end mb-12 px-2">
-        {/* <div>
+        <div>
           <Image
-            src={logoLight}
+            src={logo}
             alt="Logo"
             priority
             style={{
@@ -23,7 +22,7 @@ export default function Footer(): JSX.Element {
               height: "auto",
             }}
           />
-        </div> */}
+        </div>
         <div className="w-full flex flex-col">
           <div className=" mb-6 self-end flex gap-6">
             <Link
@@ -57,7 +56,7 @@ export default function Footer(): JSX.Element {
               </div> */}
             </Link>
           </div>
-          <div className="border-t dark:border-[#FFC956] border-[#B96001] py-6 ml-20 flex flex-col md:flex-row justify-between font-light text-center md:text-left">
+          <div className="border-t border-[#1A1A1A] py-6 ml-20 flex flex-col md:flex-row justify-between font-light text-center md:text-left">
             <div>
               <p>Copyright © 2024 - All rights reserved</p>
             </div>
@@ -69,11 +68,11 @@ export default function Footer(): JSX.Element {
                 target="_blank"
                 className="relative inline-block transition-shadow duration-300 ease-in-out"
               >
-                {/* <Image
+                <Image
                   src={logoSavy}
                   alt="Savy logo"
                   className="w-12 mb-[2px] h-auto"
-                /> */}
+                />
               </Link>
             </div>
           </div>
