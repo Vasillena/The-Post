@@ -1,4 +1,4 @@
-import { AmericanTypewriter, LemonTuesday, firaSans } from "../utils/fonts";
+import { AmericanTypewriter, firaSans } from "../utils/fonts";
 
 import Image from "next/image";
 import decor from "@/public/decor-5.png";
