@@ -13,7 +13,7 @@ export function Hero(): JSX.Element {
           className="w-full h-screen grid grid-cols-1 lg:grid-cols-2 justify-center items-center px-10"
           style={{
             backgroundImage: `url(${hero1.src})`,
-            backgroundSize: "100%",
+            backgroundSize: "94%",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center center",
           }}

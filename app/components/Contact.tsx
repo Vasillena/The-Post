@@ -6,12 +6,12 @@ import decor from "@/public/decor-5.png";
 export function Contact(): JSX.Element {
   return (
     <>
-      <section className="max-w-[1440px] mx-auto px-10 mt-32">
+      <section className="max-w-[1440px] mx-auto pl-10 mt-32">
         <div className="w-full grid grid-cols-1 lg:grid-cols-4  items-center">
           <div className="absolute">
-            <Image src={decor} alt="Cocktails" className="w-[465px] h-auto" />
+            <Image src={decor} alt="Phone" className="w-[465px] h-auto" />
           </div>
-          <div className="lg:col-span-3 lg:col-start-2 border-4 border-[#30312a] pl-60 pr-20 py-24">
+          <div className="lg:col-span-3 lg:col-start-2 border-4 border-[#30312a] pl-60 pr-32 py-24">
             <h1 className={`text-4xl ${AmericanTypewriter.className}`}>
               Свържете се с нас
             </h1>

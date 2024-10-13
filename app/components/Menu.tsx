@@ -2,6 +2,7 @@
 
 import { useCurrentLocale, useI18n } from "@/locales/client";
 
+import { AmericanTypewriter } from "../utils/fonts";
 import MenuCard from "./MenuCard";
 import menuListBG from "../menuList/menuListBG.json";
 import menuListEN from "../menuList/menuList.json";
@@ -94,7 +95,11 @@ export default function Menu() {
     <>
       <div className="flex flex-col items-start">
         <div className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-0 md:gap-1">
-          <h2 className={`text-black text-5xl font-medium px-4 py-1`}>МЕНЮ</h2>
+          <h2
+            className={`text-black text-4xl font-medium px-4 py-1 ${AmericanTypewriter.className}`}
+          >
+            МЕНЮ
+          </h2>
           <MenuCard
             text1={t("menu.hotDrinks-1")}
             text2={t("menu.hotDrinks-2")}

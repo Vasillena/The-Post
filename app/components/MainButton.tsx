@@ -1,34 +1,22 @@
 import { AmericanTypewriter } from "../utils/fonts";
 import Link from "next/link";
+import button from "@/public/button.png";
 
 export default function MainButton() {
   return (
     <Link
       href="/#contact"
-      className={`relative inline-block px-8 py-4 text-slateblue bg-black rounded-lg ${AmericanTypewriter.className} `}
+      className="relative w-full md:w-60 h-16 md:h-14 flex items-center justify-center text-white  text-lg md:text-xl"
       style={{
-        backgroundColor: "#1B1B1B",
-        color: "white",
-        textDecoration: "none",
-        display: "inline-block",
-        position: "relative",
-        overflow: "hidden",
+        backgroundImage: `url(${button.src})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
-      <span className="relative z-10">СВЪРЖИ СЕ С НАС</span>
-      <span
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          backgroundColor: "transparent",
-          border: "2px dashed #CDC0AF",
-          borderRadius: "8px",
-          pointerEvents: "none",
-        }}
-      />
+      {/* <div className="absolute inset-0 bg-black bg-opacity-40"></div> */}
+      <span className={`relative z-10 ${AmericanTypewriter.className}`}>
+        СВЪРЖИ СЕ С НАС
+      </span>
     </Link>
   );
 }
