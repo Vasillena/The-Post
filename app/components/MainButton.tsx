@@ -6,7 +6,7 @@ export default function MainButton() {
   return (
     <Link
       href="/#contact"
-      className="relative w-full md:w-60 h-16 md:h-14 flex items-center justify-center text-white  text-lg md:text-xl"
+      className="relative w-full md:w-60 h-16 md:h-14 flex items-center justify-center text-white"
       style={{
         backgroundImage: `url(${button.src})`,
         backgroundSize: "cover",
@@ -14,7 +14,7 @@ export default function MainButton() {
       }}
     >
       {/* <div className="absolute inset-0 bg-black bg-opacity-40"></div> */}
-      <span className={`relative z-10 ${AmericanTypewriter.className}`}>
+      <span className={`z-10 ${AmericanTypewriter.className}`}>
         СВЪРЖИ СЕ С НАС
       </span>
     </Link>
