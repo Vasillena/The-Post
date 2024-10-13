@@ -38,7 +38,7 @@ export function About(): JSX.Element {
         </div>
       </section>
       <section
-        className="max-w-[1440px] w-full h-[560px] mt-32 bg-fixed bg-center bg-contain"
+        className="max-w-[1440px] mx-auto w-full h-[560px] mt-32 bg-fixed bg-center bg-contain"
         style={{
           backgroundImage: `url(${decor2.src})`,
           backgroundRepeat: "no-repeat",
