@@ -32,7 +32,7 @@ export default function MainNav({
 
   const linksRight = useMemo(
     () => [
-      { href: "/menu", label: t("nav.menu") },
+      { href: "/#menu", label: t("nav.menu"), id: "menu" },
       { href: "/#contact", label: t("nav.contact"), id: "contact" },
     ],
     [t]

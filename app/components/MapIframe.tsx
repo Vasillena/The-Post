@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 export default function MapIframe() {
   useEffect(() => {
-    const existingIframe = document.querySelector("#contact iframe");
+    const existingIframe = document.querySelector("#map iframe");
     if (existingIframe) return;
 
     const iframe = document.createElement("iframe");
@@ -15,11 +15,11 @@ export default function MapIframe() {
     iframe.loading = "lazy";
     iframe.title = "Custom map showing location";
 
-    const container = document.getElementById("contact");
+    const container = document.getElementById("map");
     if (container) {
       container.appendChild(iframe);
     }
   }, []);
 
-  return <div className="w-[100vw] h-[500px] mt-32" id="contact" />;
+  return <div className="w-[100vw] h-[500px] mt-32" id="map" />;
 }

@@ -33,6 +33,7 @@ export function Second(): JSX.Element {
           </div>
         </div>
       </section>
+      <div id="about" />
     </>
   );
 }
