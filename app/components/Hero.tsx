@@ -18,16 +18,16 @@ export function Hero(): JSX.Element {
             backgroundPosition: "center center",
           }}
         >
-          <div className="border-r-4 border-[#30312a]">
+          <div className="ml-12 border-r-4 border-[#30312a]">
             <Image
               src={hero2}
               alt="Cocktail"
               priority
-              className="w-[650px] h-auto"
+              className="w-[600px] h-auto"
             />
           </div>
-          <div className="max-w-[440px] justify-self-center">
-            <h1 className={`mb-48 text-4xl ${AmericanTypewriter.className}`}>
+          <div className="mr-12 max-w-[440px] justify-self-center">
+            <h1 className={`mb-40 text-4xl ${AmericanTypewriter.className}`}>
               Заповядай в <br /> Bar “The Post”
             </h1>
             <p
