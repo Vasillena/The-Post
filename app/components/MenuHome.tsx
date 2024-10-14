@@ -18,7 +18,7 @@ export function MenuHome(): JSX.Element {
             <p
               className={`my-12 text-xl lg:text-2xl text-center lg:text-left ${LemonTuesday.className}`}
             >
-              "Good vibes and even better cocktails."
+              &quot;Good vibes and even better cocktails.&quot;
             </p>
 
             <div className="w-full mx-auto flex flex-col">
