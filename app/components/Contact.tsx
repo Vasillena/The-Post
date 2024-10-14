@@ -9,7 +9,7 @@ export function Contact(): JSX.Element {
       <section className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:pl-10 mt-20 sm:mt-32">
         <div className="w-full grid grid-cols-1 lg:grid-cols-4  items-center">
           <div className="lg:absolute flex justify-center z-10">
-            <Image src={decor} alt="Phone" className="w-[465px] h-auto" />
+            <Image src={decor} alt="Phone" className="w-[500px] h-auto" />
           </div>
           <div className="lg:col-span-3 lg:col-start-2 border-4 border-[#30312a] px-4 sm:px-20 lg:pl-52 xl:pl-60 lg:pr-4 xl:pr-32 py-24 -mt-20 lg:mt-0">
             <h1
@@ -25,7 +25,7 @@ export function Contact(): JSX.Element {
                   Адрес
                 </h3>
                 <p className={`mt-4 text-lg lg:text-xl ${firaSans.className}`}>
-                  Улица Братя Пулеви 1,
+                  Улица Гладстон 8,
                 </p>
                 <p className={`text-lg lg:text-xl ${firaSans.className}`}>
                   Plovdiv, Bulgaria 4000
@@ -38,10 +38,10 @@ export function Contact(): JSX.Element {
                   Контакти
                 </h3>
                 <p className={`mt-4 text-lg lg:text-xl ${firaSans.className}`}>
-                  +359 88 5888097
+                  +359 88 8209286
                 </p>
                 <p className={`text-lg lg:text-xl ${firaSans.className}`}>
-                  qbarplovdiv@gmail.com
+                  poshtata032@gmail.com
                 </p>
               </div>
             </div>
@@ -53,10 +53,10 @@ export function Contact(): JSX.Element {
                   Работно време
                 </h3>
                 <p className={`mt-4 text-lg lg:text-xl ${firaSans.className}`}>
-                  Неделя - Четвъртък 9:00 - 1:00
+                  Неделя - Четвъртък 10:00 - 1:00
                 </p>
                 <p className={`text-lg lg:text-xl ${firaSans.className}`}>
-                  Петък - Събота 9:00 - 3:00
+                  Петък - Събота 10:00 - 3:00
                 </p>
               </div>
               <div>
