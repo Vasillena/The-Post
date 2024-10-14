@@ -2,7 +2,6 @@ import { AmericanTypewriter, LemonTuesday } from "../utils/fonts";
 
 import Image from "next/image";
 import MainButton from "./MainButton";
-import Menu from "./Menu";
 import decor1 from "@/public/decor-4.png";
 
 export function MenuHome(): JSX.Element {
