@@ -7,11 +7,11 @@ import decor1 from "@/public/decor-4.png";
 export function MenuHome(): JSX.Element {
   return (
     <>
-      <section className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-0 sm:mt-32">
-        <div className="w-full grid grid-cols-1 lg:grid-cols-5  items-center">
-          <div className="lg:col-span-4 border-4 border-[#30312a] px-4 sm:px-20 lg:pl-10 lg:pr-40 py-24 -mt-20 lg:mt-0 order-2 lg:order-1">
+      <section className="max-w-[1440px] mx-auto px-4 sm:px-6 xl:px-0 sm:mt-32">
+        <div className="w-full grid grid-cols-1 xl:grid-cols-4  items-center">
+          <div className="xl:col-span-3 border-4 border-[#30312a] px-4 sm:px-20 xl:pl-10 xl:pr-52 py-24 -mt-28 sm:-mt-40 xl:mt-0 order-2 xl:order-1">
             <h2
-              className={`block xl:hidden text-black text-3xl lg:text-4xl font-medium text-center lg:text-left px-4 py-1 ${AmericanTypewriter.className}`}
+              className={`relative block xl:hidden text-black text-3xl lg:text-4xl font-medium text-center lg:text-left px-4 py-1 z-20 ${AmericanTypewriter.className}`}
             >
               Ние препоръчваме
             </h2>
@@ -21,7 +21,7 @@ export function MenuHome(): JSX.Element {
               &quot;Good vibes and even better cocktails.&quot;
             </p>
 
-            <div className="w-full mx-auto flex flex-col">
+            <div className="relative w-full mx-auto flex flex-col z-20">
               <div className="flex items-center">
                 <h4 className="font-bold text-[16px] md:text-[20px]">
                   Cloudini
@@ -36,7 +36,7 @@ export function MenuHome(): JSX.Element {
                 разтвор
               </p>
             </div>
-            <div className="w-full mx-auto flex flex-col">
+            <div className="relative w-full mx-auto flex flex-col z-20">
               <div className="flex items-center">
                 <h4 className="font-bold text-[16px] md:text-[20px]">
                   Cloudini
@@ -51,7 +51,7 @@ export function MenuHome(): JSX.Element {
                 разтвор
               </p>
             </div>
-            <div className="w-full mx-auto flex flex-col">
+            <div className="relative w-full mx-auto flex flex-col z-20">
               <div className="flex items-center">
                 <h4 className="font-bold text-[16px] md:text-[20px]">
                   Cloudini
@@ -71,8 +71,8 @@ export function MenuHome(): JSX.Element {
               <MainButton />
             </div>
           </div>
-          <div className="lg:-ml-48 order-1 lg:order-2 flex justify-center z-10">
-            <Image src={decor1} alt="Cocktails" className="w-[388px] h-auto" />
+          <div className="xl:-ml-72 order-1 xl:order-2 flex justify-center z-10">
+            <Image src={decor1} alt="Cocktails" className="w-[600px] h-auto" />
           </div>
         </div>
       </section>

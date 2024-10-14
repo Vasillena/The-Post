@@ -7,14 +7,14 @@ import decor2 from "@/public/decor-3.png";
 export function About(): JSX.Element {
   return (
     <>
-      <section className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-0 mt-20 sm:mt-32">
-        <div className="w-full grid grid-cols-1 lg:grid-cols-4  items-center">
-          <div className="lg:absolute flex justify-center z-10">
-            <Image src={decor1} alt="Cocktails" className="w-[517px] h-auto" />
+      <section className="max-w-[1440px] mx-auto px-4 sm:px-6 xl:px-0 mt-20 sm:mt-32">
+        <div className="w-full grid grid-cols-1 xl:grid-cols-4  items-center">
+          <div className="xl:absolute flex justify-center z-10">
+            <Image src={decor1} alt="Cocktails" className="w-[620px] h-auto" />
           </div>
-          <div className="lg:col-span-3 lg:col-start-2 border-4 border-[#30312a] px-4 sm:px-20 lg:pl-60 lg:pr-10 py-20 -mt-20 lg:mt-0 text-center lg:text-left">
+          <div className="xl:col-span-3 xl:col-start-2 border-4 border-[#30312a] px-4 sm:px-20 xl:pl-60 xl:pr-10 py-20 -mt-28 sm:-mt-40 xl:mt-0 text-center lg:text-left">
             <h1
-              className={`text-3xl lg:text-4xl ${AmericanTypewriter.className}`}
+              className={`relative text-3xl lg:text-4xl z-20 ${AmericanTypewriter.className}`}
             >
               Бар “Пощата”
             </h1>
