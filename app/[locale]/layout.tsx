@@ -3,6 +3,7 @@ import "./globals.css";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { Provider } from "./provider";
+import { SwitchLanguage } from "../components/SwitchLanguage";
 import { firaSans } from "../utils/fonts";
 
 // export async function generateMetadata({
@@ -107,6 +108,7 @@ export default function RootLayout({
       <body className={`${firaSans.className} antialiased`}>
         <Provider locale={locale}>
           <Navbar />
+          <SwitchLanguage />
           {children}
           <Footer />
         </Provider>

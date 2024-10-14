@@ -7,7 +7,7 @@ import decor2 from "@/public/decor-3.png";
 export function About(): JSX.Element {
   return (
     <>
-      <section className="max-w-[1440px] mx-auto px-4 sm:px-6 xl:px-0 mt-20 sm:mt-24">
+      <section className="max-w-[1440px] mx-auto px-4 sm:px-6 xl:px-0 mt-20 sm:mt-32">
         <div className="w-full grid grid-cols-1 xl:grid-cols-4  items-center">
           <div className="xl:absolute flex justify-center z-10">
             <Image src={decor1} alt="Cocktails" className="w-[620px] h-auto" />
@@ -42,7 +42,7 @@ export function About(): JSX.Element {
         </div>
       </section>
       <section
-        className="max-w-[1440px] mx-auto w-full h-[300px] sm:h-[560px] mt-10 sm:mt-24 sm:bg-fixed bg-center bg-contain"
+        className="max-w-[1440px] mx-auto w-full h-[300px] sm:h-[560px] mt-10 sm:mt-32 sm:bg-fixed bg-center bg-contain"
         style={{
           backgroundImage: `url(${decor2.src})`,
           backgroundRepeat: "no-repeat",

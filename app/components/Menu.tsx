@@ -8,7 +8,8 @@ import MenuCard from "./MenuCard";
 import decor1 from "@/public/decor-7.png";
 import decor2 from "@/public/decor-8.png";
 import decor3 from "@/public/decor-9.png";
-import decor4 from "@/public/decor-11.png";
+import decor4 from "@/public/decor-10.png";
+import decor5 from "@/public/decor-11.png";
 import menuListBG from "../menuList/menuListBG.json";
 import menuListEN from "../menuList/menuList.json";
 import { useState } from "react";
@@ -33,10 +34,10 @@ export default function Menu() {
       imageDecor = decor3;
       break;
     case "Alcohol":
-      imageDecor = decor3;
+      imageDecor = decor4;
       break;
     case "Beer":
-      imageDecor = decor4;
+      imageDecor = decor5;
       break;
     default:
       break;

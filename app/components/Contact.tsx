@@ -6,7 +6,7 @@ import decor from "@/public/decor-5.png";
 export function Contact(): JSX.Element {
   return (
     <>
-      <section className="max-w-[1440px] mx-auto px-4 sm:px-6 xl:pl-10 mt-14">
+      <section className="max-w-[1440px] mx-auto px-4 sm:px-6 xl:pl-10 mt-20">
         <div className="w-full grid grid-cols-1 xl:grid-cols-4  items-center">
           <div className="xl:absolute flex justify-center z-10">
             <Image src={decor} alt="Phone" className="w-[600px] h-auto" />

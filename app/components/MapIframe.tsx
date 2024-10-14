@@ -22,6 +22,6 @@ export default function MapIframe() {
   }, []);
 
   return (
-    <div className="max-w-[1440px] mx-auto w-screen h-[500px] mt-32" id="map" />
+    <div className="max-w-[1440px] mx-auto w-screen h-[500px] mt-36" id="map" />
   );
 }
