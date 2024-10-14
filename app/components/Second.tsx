@@ -9,16 +9,20 @@ export function Second(): JSX.Element {
     <>
       <section className="max-w-[1440px] mx-auto px-10 mt-20">
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 justify-between items-center gap-20">
-          <div className="justify-self-center">
-            <h1 className={`text-4xl ${AmericanTypewriter.className}`}>
+          <div className="justify-self-center text-center lg:text-left order-2 lg:order-1">
+            <h1
+              className={`text-3xl lg:text-4xl ${AmericanTypewriter.className}`}
+            >
               Всяка напитка в Bar “The Post” е писмо до теб – запечатано с
               история, вкус и вдъхновение
             </h1>
-            <p className={`my-12 text-2xl ${LemonTuesday.className}`}>
+            <p
+              className={`my-12 text-xl lg:text-2xl ${LemonTuesday.className}`}
+            >
               Коктейлите ни не са просто напитки, а истории, написани от
               майстори на миксологията.
             </p>
-            <p className={`mb-12 text-xl ${firaSans.className}`}>
+            <p className={`mb-12 text-lg lg:text-xl ${firaSans.className}`}>
               В Bar “The Post” всеки коктейл носи почерка на бармана – вдъхновен
               от класиката, но винаги с нещо неочаквано. От свежи комбинации,
               които ще ти влязат като писмо в летен ден, до по-силни вкусове,
@@ -26,9 +30,11 @@ export function Second(): JSX.Element {
               които разказват истории с всяка глътка. Готов ли си да чуеш
               следващата?
             </p>
-            <MainButton />
+            <div className="flex justify-center lg:justify-start">
+              <MainButton />
+            </div>
           </div>
-          <div className="justify-self-end">
+          <div className="justify-self-center lg:justify-self-end order-1 lg:order-2">
             <Image src={decor} alt="Cocktails" className="w-[580px] h-auto" />
           </div>
         </div>

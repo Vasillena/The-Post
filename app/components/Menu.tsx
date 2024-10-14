@@ -61,7 +61,8 @@ export default function Menu() {
           {selectedCategory.map((item) => (
             <div
               key={item.id}
-              className="max-w-[880px] w-[100vw] mx-auto flex flex-col"
+              // className="max-w-[600px] xl:max-w-[880px] w-[100vw] mx-auto flex flex-col"
+              className="w-full mx-auto flex flex-col"
             >
               {item["semi-category"] && (
                 <h3 className="text-center mt-2 text-[20px] md:text-[24px]">
@@ -96,7 +97,7 @@ export default function Menu() {
       <div className="flex flex-col items-start">
         <div className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-0 md:gap-1">
           <h2
-            className={`text-black text-4xl font-medium px-4 py-1 ${AmericanTypewriter.className}`}
+            className={`hidden xl:block text-black text-4xl font-medium px-4 py-1 ${AmericanTypewriter.className}`}
           >
             МЕНЮ
           </h2>

@@ -57,7 +57,7 @@ export default function Navbar(): JSX.Element {
       <div
         className="max-w-[1440px] hidden fixed top-0 left-0 right-0 mx-auto md:block z-50"
         style={{
-          backgroundImage: 'url("/bg.jfif")',
+          backgroundImage: 'url("/bg.png")',
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",

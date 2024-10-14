@@ -21,7 +21,7 @@ export default function MenuCard({
         className="flex justify-center items-center"
       >
         <div
-          className={`flex flex-row md:flex-col justify-center items-center px-4 py-1 ${
+          className={`flex flex-row md:flex-col justify-center items-center w-44 h-20 ${
             active ? "border border-[#30312a]" : ""
           }  ${active ? "md:shadow-md" : "shadow-none"} ${
             AmericanTypewriter.className

@@ -6,14 +6,13 @@ export default function MainButton() {
   return (
     <Link
       href="/#contact"
-      className="relative w-full md:w-60 h-16 md:h-14 flex items-center justify-center text-white"
+      className="relative w-44 lg:w-60 h-10 lg:h-14 flex items-center justify-center text-white text-sm lg:text-base"
       style={{
         backgroundImage: `url(${button.src})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      {/* <div className="absolute inset-0 bg-black bg-opacity-40"></div> */}
       <span className={`z-10 ${AmericanTypewriter.className}`}>
         СВЪРЖИ СЕ С НАС
       </span>
