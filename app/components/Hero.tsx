@@ -9,7 +9,7 @@ export function Hero(): JSX.Element {
     <>
       <section className="max-w-[1440px] mx-auto">
         <div
-          className={`w-full h-screen grid grid-cols-1 lg:grid-cols-2 justify-center items-center px-10 md:bg-[url(/hero.png)] md:bg-cover md:bg-no-repeat md:bg-center`}
+          className={`w-full h-screen grid grid-cols-1 xl:grid-cols-2 justify-center items-center px-4 sm:px-10 md:bg-[url(/hero.png)] md:bg-cover md:bg-no-repeat md:bg-center`}
           style={{
             // backgroundImage: `url(${hero1.src})`,
             backgroundSize: "94%",
@@ -17,7 +17,7 @@ export function Hero(): JSX.Element {
             backgroundPosition: "center center",
           }}
         >
-          <div className="hidden lg:block lg:ml-14 border-r-4 border-[#30312a]">
+          <div className="hidden xl:block xl:ml-14 border-r-4 border-[#30312a]">
             <Image
               src={cocktail}
               alt="Cocktail"
@@ -25,9 +25,9 @@ export function Hero(): JSX.Element {
               className="w-[600px] h-auto"
             />
           </div>
-          <div className="lg:mr-14 max-w-[600px] lg:max-w-[440px] justify-self-center text-center lg:text-left">
+          <div className="xl:mr-14 max-w-[600px] xl:max-w-[440px] justify-self-center text-center xl:text-left">
             <h1
-              className={`mb-10 lg:mb-40 text-3xl lg:text-4xl ${AmericanTypewriter.className}`}
+              className={`mb-10 xl:mb-40 text-3xl lg:text-4xl ${AmericanTypewriter.className}`}
             >
               Заповядай в <br /> Bar “The Post”
             </h1>
@@ -38,12 +38,12 @@ export function Hero(): JSX.Element {
               почеркът на нашите бармани...
             </p>
             <p
-              className={`mt-8 mb-10 lg:mb-20 text-lg lg:text-xl ${LemonTuesday.className}`}
+              className={`mt-8 mb-10 xl:mb-20 text-lg lg:text-xl ${LemonTuesday.className}`}
             >
               ... а коктейлите разказват истории, които ще искаш да чуеш отново
               и отново...
             </p>
-            <div className="flex justify-center lg:justify-start">
+            <div className="flex justify-center xl:justify-start">
               <MainButton />
             </div>
           </div>

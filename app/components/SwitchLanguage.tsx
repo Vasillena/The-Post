@@ -2,7 +2,8 @@
 
 import { useChangeLocale, useCurrentLocale } from "../../locales/client";
 
-// import { GrLanguage } from "react-icons/gr";
+import { AmericanTypewriter } from "../utils/fonts";
+import stamp from "@/public/language.png";
 
 export function SwitchLanguage(): JSX.Element {
   const changeLocale = useChangeLocale();
@@ -18,26 +19,30 @@ export function SwitchLanguage(): JSX.Element {
         <button
           type="button"
           onClick={handleChangeToEnglish}
-          className="fixed bottom-0 right-8 w-10 py-2 rounded-t-xl drop-shadow-sm dark:bg-[#FFC956] bg-[#B96001]
-            md:static md:bottom-auto md:right-auto md:w-auto md:py-0 md:rounded-none md:drop-shadow-none md:bg-transparent dark:md:bg-transparent"
+          className="fixed top-32 -left-2 w-12 h-10 flex items-center justify-center text-[#30312a] z-50"
+          style={{
+            backgroundImage: `url(${stamp.src})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
           aria-label="Switch to English"
         >
-          {/* <GrLanguage
-            className={`mx-auto fill-current text-[#30312a] dark:text-white dark:hover:text-[#FFC956] hover:text-[#B96001] transition-colors duration-300`}
-          /> */}
+          <span className={`z-10 ${AmericanTypewriter.className}`}>EN</span>
         </button>
       )}
       {locale !== "bg" && (
         <button
           type="button"
           onClick={handleChangeToBulgarian}
-          className="fixed bottom-0 right-8 w-10 py-2 rounded-t-xl drop-shadow-sm dark:bg-[#FFC956] bg-[#B96001]
-            md:static md:bottom-auto md:right-auto md:w-auto md:py-0 md:rounded-none md:drop-shadow-none md:bg-transparent dark:md:bg-transparent"
+          className="fixed top-32 -left-2 w-12 h-10 flex items-center justify-center text-[#30312a] z-50"
+          style={{
+            backgroundImage: `url(${stamp.src})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
           aria-label="Switch to Bulgarian"
         >
-          {/* <GrLanguage
-            className={`mx-auto fill-current text-[#30312a] dark:text-white dark:hover:text-[#FFC956] hover:text-[#B96001] transition-colors duration-300`}
-          /> */}
+          <span className={`z-10 ${AmericanTypewriter.className}`}>BG</span>
         </button>
       )}
     </>

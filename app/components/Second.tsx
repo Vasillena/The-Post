@@ -7,11 +7,17 @@ import decor from "@/public/decor-1.png";
 export function Second(): JSX.Element {
   return (
     <>
-      <section className="max-w-[1440px] mx-auto px-10 mt-20">
+      <section className="max-w-[1440px] mx-auto px-4 sm:px-10 sm:mt-20">
+        <h1
+          className={`hidden lg:block xl:hidden mb-8 text-3xl lg:text-4xl text-center ${AmericanTypewriter.className}`}
+        >
+          Всяка напитка в Bar “The Post” е писмо до теб – запечатано с история,
+          вкус и вдъхновение
+        </h1>
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 justify-between items-center gap-20">
           <div className="justify-self-center text-center lg:text-left order-2 lg:order-1">
             <h1
-              className={`text-3xl lg:text-4xl ${AmericanTypewriter.className}`}
+              className={`block lg:hidden xl:block text-3xl lg:text-4xl ${AmericanTypewriter.className}`}
             >
               Всяка напитка в Bar “The Post” е писмо до теб – запечатано с
               история, вкус и вдъхновение

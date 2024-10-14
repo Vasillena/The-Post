@@ -6,18 +6,18 @@ import decor from "@/public/decor-5.png";
 export function Contact(): JSX.Element {
   return (
     <>
-      <section className="max-w-[1440px] mx-auto px-6 lg:pl-10 mt-32">
+      <section className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:pl-10 mt-20 sm:mt-32">
         <div className="w-full grid grid-cols-1 lg:grid-cols-4  items-center">
-          <div className="lg:absolute flex justify-center">
+          <div className="lg:absolute flex justify-center z-10">
             <Image src={decor} alt="Phone" className="w-[465px] h-auto" />
           </div>
-          <div className="lg:col-span-3 lg:col-start-2 border-4 border-[#30312a] px-20 lg:pl-52 xl:pl-60 lg:pr-4 xl:pr-32 py-24">
+          <div className="lg:col-span-3 lg:col-start-2 border-4 border-[#30312a] px-4 sm:px-20 lg:pl-52 xl:pl-60 lg:pr-4 xl:pr-32 py-24 -mt-20 lg:mt-0">
             <h1
-              className={`text-3xl lg:text-4xl ${AmericanTypewriter.className}`}
+              className={`text-3xl lg:text-4xl text-center sm:text-left ${AmericanTypewriter.className}`}
             >
               Свържете се с нас
             </h1>
-            <div className="mt-12 flex justify-between">
+            <div className="mt-12 flex flex-col sm:flex-row justify-between items-center gap-8 sm:gap-0 text-center sm:text-left">
               <div>
                 <h3
                   className={`text-xl lg:text-2xl ${AmericanTypewriter.className}`}
@@ -45,7 +45,7 @@ export function Contact(): JSX.Element {
                 </p>
               </div>
             </div>
-            <div className="mt-20 flex justify-between">
+            <div className="mt-12 flex flex-col sm:flex-row justify-between items-center gap-8 sm:gap-0 text-center sm:text-left">
               <div>
                 <h3
                   className={`text-xl lg:text-2xl ${AmericanTypewriter.className}`}

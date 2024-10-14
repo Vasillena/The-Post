@@ -5,7 +5,6 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import MainNav from "./MainNav";
-import { SwitchLanguage } from "../components/SwitchLanguage";
 import close from "@/public/close.svg";
 import logo from "@/public/logo.png";
 import menu from "@/public/menu.svg";
@@ -64,29 +63,30 @@ export default function Navbar(): JSX.Element {
           backgroundAttachment: "fixed",
         }}
       >
-        <div className="px-4 sm:px-9 lg:px-16 flex py-3 justify-between items-center">
-          <div className="w-12 h-12 flex justify-center items-center">
-            {/* <SwitchTheme /> */}
-          </div>
+        <div className="px-4 flex py-3 justify-center items-center">
           <MainNav>
             <Link href="/" className="ml-4 flex lg:ml-0 lg:mr-6 px-5">
               <Image src={logo} alt="Logo" priority className="w-16 h-auto" />
             </Link>
           </MainNav>
-          <div className="w-12 h-12 flex justify-center items-center">
-            <SwitchLanguage />
-          </div>
         </div>
       </div>
       <div
         className="
-           max-w-[1440px] block fixed top-0 left-0 right-0 mx-auto md:hidden z-50 bg-[#e4ded4]"
+           max-w-[1440px] block fixed top-0 left-0 right-0 mx-auto md:hidden z-50"
+        style={{
+          backgroundImage: 'url("/bg.png")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "fixed",
+        }}
       >
-        <div className="w-full flex h-16 justify-between items-end">
-          <div className="w-full mr-4">
+        <div className="w-full flex h-16 justify-between items-center px-4">
+          <div className="w-full">
             <div
               ref={buttonRef}
-              className="w-12 h-12 pl-4 flex justify-center items-center"
+              className="w-12 h-12 flex justify-center items-center"
             >
               <button onClick={() => setOpen(!open)}>
                 <Image
@@ -100,16 +100,10 @@ export default function Navbar(): JSX.Element {
               </button>
             </div>
           </div>
-          <div className="w-20 mt-4 flex justify-center items-center">
+          <div className="w-14 flex justify-center items-center">
             <Link href="/">
               <Image src={logo} alt="Logo" priority className="w-full h-auto" />
             </Link>
-          </div>
-          <div className="w-full ml-4 flex justify-end item">
-            <div className="w-12 h-12 pr-4 flex justify-center items-center">
-              {/* <SwitchTheme /> */}
-              <SwitchLanguage />
-            </div>
           </div>
         </div>
       </div>
