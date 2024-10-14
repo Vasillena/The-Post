@@ -2,8 +2,7 @@ import { AmericanTypewriter, LemonTuesday } from "../utils/fonts";
 
 import Image from "next/image";
 import MainButton from "./MainButton";
-import hero1 from "@/public/hero.png";
-import hero2 from "@/public/hero-2.png";
+import cocktail from "@/public/hero-2.png";
 
 export function Hero(): JSX.Element {
   return (
@@ -20,7 +19,7 @@ export function Hero(): JSX.Element {
         >
           <div className="hidden lg:block lg:ml-14 border-r-4 border-[#30312a]">
             <Image
-              src={hero2}
+              src={cocktail}
               alt="Cocktail"
               priority
               className="w-[600px] h-auto"
