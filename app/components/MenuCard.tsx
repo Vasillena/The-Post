@@ -21,7 +21,7 @@ export default function MenuCard({
         className="flex justify-center items-center"
       >
         <div
-          className={`flex flex-row md:flex-col justify-center items-center w-44 h-20 ${
+          className={`flex flex-row md:flex-col justify-center items-center min-w-44 h-12 md:h-20 px-2 gap-2 md:gap-0 ${
             active ? "border border-[#30312a]" : ""
           }  ${active ? "md:shadow-md" : "shadow-none"} ${
             KyivMachine.className
@@ -37,7 +37,7 @@ export default function MenuCard({
           )}
         </div>
       </button>
-      <div className="border-t border-gray-300 my-2" />
+      {/* <div className="border-t border-gray-300 my-2" /> */}
     </>
   );
 }

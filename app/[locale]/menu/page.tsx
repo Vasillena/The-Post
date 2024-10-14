@@ -97,9 +97,5 @@ import Menu from "@/app/components/Menu";
 // }
 
 export default async function MenuPage() {
-  return (
-    <section className="max-w-[1440px] mx-auto h-screen">
-      <Menu />
-    </section>
-  );
+  return <Menu />;
 }
