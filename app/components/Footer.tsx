@@ -13,7 +13,7 @@ export default function Footer(): JSX.Element {
     <div
       className="max-w-screen mt-20"
       style={{
-        backgroundImage: 'url("/bg.jfif")',
+        backgroundImage: 'url("/bg.png")',
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
