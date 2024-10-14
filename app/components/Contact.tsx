@@ -1,7 +1,7 @@
 import { AmericanTypewriter, firaSans } from "../utils/fonts";
 
 import Image from "next/image";
-import decor from "@/public/decor-5.png";
+import decor from "@/public/decor-6.png";
 
 export function Contact(): JSX.Element {
   return (
