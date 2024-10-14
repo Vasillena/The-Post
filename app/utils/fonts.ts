@@ -11,8 +11,11 @@ export const firaSans = Fira_Sans_Condensed({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-export const AmericanTypewriter = localFont({
-  src: "../../public/AmericanTypewriter.ttf",
+// export const AmericanTypewriter = localFont({
+//   src: "../../public/AmericanTypewriter.ttf",
+// });
+export const KyivMachine = localFont({
+  src: "../../public/KyivMachine.otf",
 });
 export const LemonTuesday = localFont({
   src: "../../public/LemonTuesday.otf",

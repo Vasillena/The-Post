@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef } from "react";
 import { usePathname, useRouter } from "next/navigation";
 
-import { AmericanTypewriter } from "../utils/fonts";
+import { KyivMachine } from "../utils/fonts";
 import Link from "next/link";
 import { useI18n } from "@/locales/client";
 
@@ -32,7 +32,7 @@ export default function MainNav({
 
   const linksRight = useMemo(
     () => [
-      { href: "/#menu", label: t("nav.menu"), id: "menu" },
+      { href: "/menu", label: t("nav.menu") },
       { href: "/#contact", label: t("nav.contact"), id: "contact" },
     ],
     [t]
@@ -74,7 +74,7 @@ export default function MainNav({
         <Link
           key={link.href}
           href={link.href}
-          className={`flex items-center text-xl hover:text-[#DCBB94] ${AmericanTypewriter.className}`}
+          className={`flex items-center text-xl hover:text-[#DCBB94] ${KyivMachine.className}`}
           onClick={() => {
             if (link.id) {
               handleScroll(link.id, link.href);
@@ -92,7 +92,7 @@ export default function MainNav({
         <Link
           key={link.href}
           href={link.href}
-          className={`flex items-center text-xl hover:text-[#DCBB94] ${AmericanTypewriter.className}`}
+          className={`flex items-center text-xl hover:text-[#DCBB94] ${KyivMachine.className}`}
           onClick={() => {
             if (link.id) {
               handleScroll(link.id, link.href);

@@ -2,7 +2,7 @@
 
 import { useChangeLocale, useCurrentLocale } from "../../locales/client";
 
-import { AmericanTypewriter } from "../utils/fonts";
+import { KyivMachine } from "../utils/fonts";
 import stamp from "@/public/language.png";
 
 export function SwitchLanguage(): JSX.Element {
@@ -27,7 +27,7 @@ export function SwitchLanguage(): JSX.Element {
           }}
           aria-label="Switch to English"
         >
-          <span className={`z-10 ${AmericanTypewriter.className}`}>EN</span>
+          <span className={`z-10 ${KyivMachine.className}`}>EN</span>
         </button>
       )}
       {locale !== "bg" && (
@@ -42,7 +42,7 @@ export function SwitchLanguage(): JSX.Element {
           }}
           aria-label="Switch to Bulgarian"
         >
-          <span className={`z-10 ${AmericanTypewriter.className}`}>BG</span>
+          <span className={`z-10 ${KyivMachine.className}`}>BG</span>
         </button>
       )}
     </>

@@ -1,4 +1,4 @@
-import { AmericanTypewriter } from "../utils/fonts";
+import { KyivMachine } from "../utils/fonts";
 import Link from "next/link";
 import button from "@/public/button.png";
 
@@ -13,9 +13,7 @@ export default function MainButton() {
         backgroundPosition: "center",
       }}
     >
-      <span className={`z-10 ${AmericanTypewriter.className}`}>
-        СВЪРЖИ СЕ С НАС
-      </span>
+      <span className={`z-10 ${KyivMachine.className}`}>СВЪРЖИ СЕ С НАС</span>
     </Link>
   );
 }

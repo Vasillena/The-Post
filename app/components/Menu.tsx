@@ -2,7 +2,7 @@
 
 import { useCurrentLocale, useI18n } from "@/locales/client";
 
-import { AmericanTypewriter } from "../utils/fonts";
+import { KyivMachine } from "../utils/fonts";
 import MenuCard from "./MenuCard";
 import menuListBG from "../menuList/menuListBG.json";
 import menuListEN from "../menuList/menuList.json";
@@ -29,10 +29,7 @@ export default function Menu() {
       categoryName = categoryNameObj.category;
 
       switch (categoryName) {
-        case "Hot Drinks":
-          if (locale === "bg") categoryName = "Топли Напитки";
-          break;
-        case "Soft Drinks":
+        case "Non-alcoholic Drinks":
           if (locale === "bg") categoryName = "Безалкохолни Напитки";
           break;
         case "Mixed Drinks":
@@ -54,15 +51,15 @@ export default function Menu() {
 
     if (selectedCategory && categoryNameObj && categoryName) {
       return (
-        <div className="mb-10 h-[400px] overflow-y-scroll px-4">
+        <div className="mb-10">
           <h2 className="text-center my-4 text-[36px] md:text-[44px]">
             {categoryName}
           </h2>
           {selectedCategory.map((item) => (
             <div
               key={item.id}
-              // className="max-w-[600px] xl:max-w-[880px] w-[100vw] mx-auto flex flex-col"
-              className="w-full mx-auto flex flex-col"
+              className="max-w-[800px] w-[90vw] lg:w-[70vw] mx-auto flex flex-col"
+              // className="w-full mx-auto flex flex-col"
             >
               {item["semi-category"] && (
                 <h3 className="text-center mt-2 text-[20px] md:text-[24px]">
@@ -94,24 +91,18 @@ export default function Menu() {
 
   return (
     <>
-      <div className="flex flex-col items-start">
+      <div className="flex flex-col items-center mt-16 sm:mt-20">
         <div className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-0 md:gap-1">
           <h2
-            className={`hidden xl:block text-black text-4xl font-medium px-4 py-1 ${AmericanTypewriter.className}`}
+            className={`hidden xl:block text-black text-4xl font-medium px-4 py-1 ${KyivMachine.className}`}
           >
             МЕНЮ
           </h2>
           <MenuCard
-            text1={t("menu.hotDrinks-1")}
-            text2={t("menu.hotDrinks-2")}
-            onClick={() => setSelectedTab("Hot Drinks")}
-            active={selectedTab === "Hot Drinks"}
-          />
-          <MenuCard
             text1={t("menu.softDrinks-1")}
             text2={t("menu.softDrinks-2")}
-            onClick={() => setSelectedTab("Soft Drinks")}
-            active={selectedTab === "Soft Drinks"}
+            onClick={() => setSelectedTab("Non-alcoholic Drinks")}
+            active={selectedTab === "Non-alcoholic Drinks"}
           />
           <MenuCard
             text1={t("menu.mixedDrinks")}

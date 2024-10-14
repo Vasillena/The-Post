@@ -1,4 +1,4 @@
-import { AmericanTypewriter, LemonTuesday, firaSans } from "../utils/fonts";
+import { KyivMachine, LemonTuesday, firaSans } from "../utils/fonts";
 
 import Image from "next/image";
 import decor1 from "@/public/decor-2.png";
@@ -7,14 +7,14 @@ import decor2 from "@/public/decor-3.png";
 export function About(): JSX.Element {
   return (
     <>
-      <section className="max-w-[1440px] mx-auto px-4 sm:px-6 xl:px-0 mt-20 sm:mt-32">
+      <section className="max-w-[1440px] mx-auto px-4 sm:px-6 xl:px-0 mt-20 sm:mt-24">
         <div className="w-full grid grid-cols-1 xl:grid-cols-4  items-center">
           <div className="xl:absolute flex justify-center z-10">
             <Image src={decor1} alt="Cocktails" className="w-[620px] h-auto" />
           </div>
-          <div className="xl:col-span-3 xl:col-start-2 border-4 border-[#30312a] px-4 sm:px-20 xl:pl-60 xl:pr-10 py-20 -mt-28 sm:-mt-40 xl:mt-0 text-center lg:text-left">
+          <div className="xl:col-span-3 xl:col-start-2 border-4 border-[#30312a] px-4 sm:px-20 xl:pl-60 xl:pr-10 py-16 -mt-28 sm:-mt-40 xl:mt-0 text-center lg:text-left">
             <h1
-              className={`relative text-3xl lg:text-4xl z-20 ${AmericanTypewriter.className}`}
+              className={`relative text-3xl lg:text-4xl z-20 ${KyivMachine.className}`}
             >
               Бар “Пощата”
             </h1>
@@ -42,7 +42,7 @@ export function About(): JSX.Element {
         </div>
       </section>
       <section
-        className="max-w-[1440px] mx-auto w-full h-[300px] sm:h-[560px] mt-10 sm:mt-32 sm:bg-fixed bg-center bg-contain"
+        className="max-w-[1440px] mx-auto w-full h-[300px] sm:h-[560px] mt-10 sm:mt-24 sm:bg-fixed bg-center bg-contain"
         style={{
           backgroundImage: `url(${decor2.src})`,
           backgroundRepeat: "no-repeat",

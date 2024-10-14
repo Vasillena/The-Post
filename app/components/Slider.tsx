@@ -21,7 +21,7 @@ const slides = [
 export default function Slider(): JSX.Element {
   return (
     <>
-      <div className="max-w-[1440px] mx-auto mt-20 sm:mt-32">
+      <div className="max-w-[1440px] mx-auto">
         <div className="relative h-full  py-2 w-full">
           {/* <div className="absolute inset-0 z-10 pointer-events-none">
           <div className="absolute left-[-10px] top-0 w-1/4 h-full bg-gradient-to-r from-[#e4ded4] to-transparent blur-sm z-20"></div>

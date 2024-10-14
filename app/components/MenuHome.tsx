@@ -1,4 +1,4 @@
-import { AmericanTypewriter, LemonTuesday } from "../utils/fonts";
+import { KyivMachine, LemonTuesday } from "../utils/fonts";
 
 import Image from "next/image";
 import MainButton from "./MainButton";
@@ -7,11 +7,11 @@ import decor1 from "@/public/decor-4.png";
 export function MenuHome(): JSX.Element {
   return (
     <>
-      <section className="max-w-[1440px] mx-auto px-4 sm:px-6 xl:px-0 sm:mt-32">
+      <section className="max-w-[1440px] mx-auto px-4 sm:px-6 xl:px-0 sm:mt-12">
         <div className="w-full grid grid-cols-1 xl:grid-cols-4  items-center">
-          <div className="xl:col-span-3 border-4 border-[#30312a] px-4 sm:px-20 xl:pl-10 xl:pr-52 py-24 -mt-28 sm:-mt-40 xl:mt-0 order-2 xl:order-1">
+          <div className="xl:col-span-3 border-4 border-[#30312a] px-4 sm:px-20 xl:pl-10 xl:pr-52 py-16 -mt-28 sm:-mt-40 xl:mt-0 order-2 xl:order-1">
             <h2
-              className={`relative block xl:hidden text-black text-3xl lg:text-4xl font-medium text-center lg:text-left px-4 py-1 z-20 ${AmericanTypewriter.className}`}
+              className={`relative text-black text-3xl lg:text-4xl font-medium text-center lg:text-left px-4 py-1 z-20 ${KyivMachine.className}`}
             >
               Ние препоръчваме
             </h2>

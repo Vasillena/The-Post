@@ -1,4 +1,4 @@
-import { AmericanTypewriter } from "../utils/fonts";
+import { KyivMachine } from "../utils/fonts";
 
 interface MenuCardProps {
   text1: string;
@@ -24,7 +24,7 @@ export default function MenuCard({
           className={`flex flex-row md:flex-col justify-center items-center w-44 h-20 ${
             active ? "border border-[#30312a]" : ""
           }  ${active ? "md:shadow-md" : "shadow-none"} ${
-            AmericanTypewriter.className
+            KyivMachine.className
           }`}
         >
           <span className={`text-black text-xl ${active ? "font-bold" : ""}`}>
