@@ -1,7 +1,7 @@
 import { AmericanTypewriter, firaSans } from "../utils/fonts";
 
 import Image from "next/image";
-import decor from "@/public/decor-6.png";
+import decor from "@/public/decor-7.png";
 
 export function Contact(): JSX.Element {
   return (
@@ -66,10 +66,10 @@ export function Contact(): JSX.Element {
                   Последвайте ни
                 </h3>
                 <p className={`mt-4 text-lg lg:text-xl ${firaSans.className}`}>
-                  Facebook | @Qbarplovdiv
+                  Facebook | @barthepost
                 </p>
                 <p className={`text-lg lg:text-xl ${firaSans.className}`}>
-                  Instagram | @Qbarplovdiv
+                  Instagram | @barthepost
                 </p>
               </div>
             </div>
