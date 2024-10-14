@@ -4,34 +4,34 @@
       "id": 1,
       "category": "Mixed Drinks",
       "semi-category": "Classic Mixed Drinks",
-      "name": "Aperol Spritz",
-      "price": "12.50 BGN",
+      "name": "Bramble",
+      "price": "13.50 BGN",
       "quantity": "200 ml",
-      "description": "Aperol, prosecco, soda, orange"
+      "description": "Votanikon Gin, Whitley Neil Raspberry Gin, Briottet Creme de Cassis de Dijon liqueur, Simple Syrup, Lemon juice"
     },
     {
       "id": 2,
       "category": "Mixed Drinks",
-      "name": "Apple Sour",
-      "price": "13.50 BGN",
-      "quantity": "180 ml",
-      "description": "Finlandia vodka, green apple liquor, vanilla syrup and cinnamon, lemon, foam"
+      "name": "Pina Lavender Margarita",
+      "price": "14.00 BGN",
+      "quantity": "150 ml",
+      "description": "Pineapple and lavender flavoured El Jimador tequila, Lime juice, Agave nectar, Ghee infused Plantation rum"
     },
     {
       "id": 3,
       "category": "Mixed Drinks",
-      "name": "Mojito",
+      "name": "Espresso Martini",
       "price": "13.50 BGN",
-      "quantity": "250 ml",
-      "description": "Bacardi rum, lime, sugar, mint, soda"
+      "quantity": "150 ml",
+      "description": "Vodka JJ Whitley, Banana liqueur, Leffe beer reduction, Espresso shot, Nut bitter, Salt"
     },
     {
       "id": 4,
       "category": "Mixed Drinks",
-      "name": "Margarita",
-      "price": "14.50 BGN",
-      "quantity": "180 ml",
-      "description": "Tequila Sierra, Dry Curacao, lime"
+      "name": "Kokoti",
+      "price": "13.50 BGN",
+      "quantity": "200 ml",
+      "description": "Tatratea Coconut liqueur, Milky Ooolong cordial, Lime juice"
     },
     {
       "id": 5,
