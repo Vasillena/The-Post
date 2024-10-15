@@ -1,6 +1,6 @@
 import Image from "next/image";
 import MainButton from "../components/MainButton";
-import image from "@/public/404.png";
+import image from "@/public/404.webp";
 
 export default function NotFound() {
   return (

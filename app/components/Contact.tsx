@@ -2,7 +2,7 @@ import { KyivMachine, firaSans } from "../utils/fonts";
 
 import Image from "next/image";
 import Reveal from "./Animations/Reveal";
-import decor from "@/public/decor-5.png";
+import decor from "@/public/decor-5.webp";
 import { getI18n } from "@/locales/server";
 
 type ContactCardProps = {

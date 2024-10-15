@@ -2,7 +2,7 @@ import { KyivMachine, LemonTuesday, firaSans } from "../utils/fonts";
 
 import Image from "next/image";
 import Reveal from "./Animations/Reveal";
-import decor1 from "@/public/decor-2.png";
+import decor1 from "@/public/decor-2.webp";
 import { getI18n } from "@/locales/server";
 
 export default async function About(): Promise<JSX.Element> {
@@ -28,6 +28,7 @@ export default async function About(): Promise<JSX.Element> {
               </h1>
               <p
                 className={`my-12 text-xl lg:text-2xl ${LemonTuesday.className}`}
+                style={{ lineHeight: "2.5rem" }}
               >
                 {t("about.text-1")}
               </p>

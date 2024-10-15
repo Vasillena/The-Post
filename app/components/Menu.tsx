@@ -6,11 +6,11 @@ import { useMemo, useState } from "react";
 
 import Image from "next/image";
 import MenuCard from "./MenuCard";
-import decor1 from "@/public/decor-7.png";
-import decor2 from "@/public/decor-8.png";
-import decor3 from "@/public/decor-9.png";
-import decor4 from "@/public/decor-10.png";
-import decor5 from "@/public/decor-11.png";
+import decor1 from "@/public/decor-7.webp";
+import decor2 from "@/public/decor-8.webp";
+import decor3 from "@/public/decor-9.webp";
+import decor4 from "@/public/decor-10.webp";
+import decor5 from "@/public/decor-11.webp";
 import menuListBG from "../menuList/menuListBG.json";
 import menuListEN from "../menuList/menuList.json";
 
@@ -81,7 +81,7 @@ export default function Menu() {
           {selectedCategory.map((item) => (
             <div
               key={item.id}
-              className="max-w-[800px] w-[90vw] lg:w-[70vw] mx-auto flex flex-col"
+              className="max-w-[800px] w-[90vw] lg:w-[70vw] mx-auto flex flex-col mt-2"
               // className="w-full mx-auto flex flex-col"
             >
               {item["semi-category"] && (
@@ -136,7 +136,7 @@ export default function Menu() {
             </p>
           </div>
 
-          <div className="md:border-4 md:border-[#30312a] px-4 sm:px-20 py-16 -mt-28 md:-mt-20 lg:-mt-28 text-center lg:text-left">
+          <div className="md:border-4 md:border-[#30312a] px-4 sm:px-20 py-16 -mt-28 md:-mt-20 lg:-mt-32 text-center lg:text-left">
             <div className="flex flex-col items-center mt-16 sm:mt-20">
               <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-0 sm:gap-1">
                 <MenuCard

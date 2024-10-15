@@ -27,6 +27,7 @@ export default async function Second(): Promise<JSX.Element> {
               </h1>
               <p
                 className={`my-12 text-xl lg:text-2xl ${LemonTuesday.className}`}
+                style={{ lineHeight: "2.5rem" }}
               >
                 {t("second.text-1")}
               </p>

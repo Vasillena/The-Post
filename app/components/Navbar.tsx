@@ -54,7 +54,7 @@ export default function Navbar(): JSX.Element {
   return (
     <div className="max-w-[1440px]">
       <div
-        className="max-w-[1440px] hidden fixed top-0 left-0 right-0 mx-auto md:block z-50 bg-[url(/bg-mobile.png)] sm:bg-[url(/bg.png)]"
+        className="max-w-[1440px] hidden fixed top-0 left-0 right-0 mx-auto md:block z-50 bg-[url(/bg-mobile.webp)] sm:bg-[url(/bg.webp)]"
         style={{
           backgroundSize: "cover",
           backgroundPosition: "center",
@@ -72,7 +72,7 @@ export default function Navbar(): JSX.Element {
       </div>
       <div
         className="
-           max-w-[1440px] block fixed top-0 left-0 right-0 mx-auto md:hidden z-50 bg-[url(/bg-mobile.png)] sm:bg-[url(/bg.png)]"
+           max-w-[1440px] block fixed top-0 left-0 right-0 mx-auto md:hidden z-50 bg-[url(/bg-mobile.webp)] sm:bg-[url(/bg.webp)]"
         style={{
           backgroundSize: "cover",
           backgroundPosition: "center",
@@ -108,7 +108,7 @@ export default function Navbar(): JSX.Element {
       {open && (
         <motion.div
           ref={menuRef}
-          className="fixed top-0 left-0 z-50 w-1/2 h-screen flex flex-col justify-center bg-[url(/bg-mobile.png)] py-8 pl-2 border-r border-[#30312a]"
+          className="fixed top-0 left-0 z-50 w-1/2 h-screen flex flex-col justify-center bg-[url(/bg-mobile.webp)] py-8 pl-2 border-r border-[#30312a]"
           style={{
             backgroundSize: "cover",
             backgroundPosition: "center",

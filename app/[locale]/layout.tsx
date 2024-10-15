@@ -6,95 +6,83 @@ import { Provider } from "./provider";
 import { SwitchLanguage } from "../components/SwitchLanguage";
 import { firaSans } from "../utils/fonts";
 
-// export async function generateMetadata({
-//   params: { locale },
-// }: {
-//   params: { locale: string };
-// }) {
-//   let title, description, keywords;
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  let title, description, keywords;
 
-//   if (locale === "bg") {
-//     title = "Qbar | q-bar.bg";
-//     description =
-//       "Ритми, коктейли и незабравими нощи в Q. Потопете се в свят, където яките ритми срещат коктейлното изкуство. Очаквайте нещо повече от вечер - очаквайте изживяване.";
-//     keywords = [
-//       "Qbar",
-//       "бар Qbar",
-//       "Qbar Пловдив",
-//       "бар Пловдив",
-//       "бар Капана",
-//       "Пловдив",
-//       "Капана",
-//       "коктейл бар Пловдив",
-//       "коктейл бар Капана",
-//       "парти",
-//       "коктейли",
-//       "атмосфера",
-//       "нощен живот",
-//       "bar Qbar",
-//       "Qbar Plovdiv",
-//       "bar Plovdiv",
-//       "bar Kapana",
-//       "Plovdiv",
-//       "Kapana",
-//       "cocktail bar Plovdiv",
-//       "cocktail bar Kapana",
-//       "parties",
-//       "cocktails",
-//       "vibe",
-//       "nightlife",
-//     ];
-//   } else if (locale === "en") {
-//     title = "Qbar | q-bar.bg";
-//     (description =
-//       "Rhythms, cocktails and unforgettable nights at Q. Immerse yourself in a world where great beats meet the art of cocktails. Expect more than just a night out – expect an experience."),
-//       (keywords = [
-//         "Qbar",
-//         "бар Qbar",
-//         "Qbar Пловдив",
-//         "бар Пловдив",
-//         "бар Капана",
-//         "Пловдив",
-//         "Капана",
-//         "коктейл бар Пловдив",
-//         "коктейл бар Капана",
-//         "парти",
-//         "коктейли",
-//         "атмосфера",
-//         "нощен живот",
-//         "bar Qbar",
-//         "Qbar Plovdiv",
-//         "bar Plovdiv",
-//         "bar Kapana",
-//         "Plovdiv",
-//         "Kapana",
-//         "cocktail bar Plovdiv",
-//         "cocktail bar Kapana",
-//         "parties",
-//         "cocktails",
-//         "vibe",
-//         "nightlife",
-//       ]);
-//   }
+  if (locale === "bg") {
+    title = "Bar The Post | barthepost.bg";
+    description =
+      "Потопи се в света на миксологията, където зад всяка поръчка стои почеркът на нашите бармани... а коктейлите разказват истории, които ще искаш да чуеш отново и отново...";
+    keywords = [
+      "Пощата",
+      "бар Пощата",
+      "ППощата Пловдив",
+      "бар Пловдив",
+      "Пловдив",
+      "коктейл бар Пловдив",
+      "парти",
+      "коктейли",
+      "атмосфера",
+      "нощен живот",
+      "bar The Post",
+      "The Post Plovdiv",
+      "bar Plovdiv",
+      "Plovdiv",
+      "cocktail bar Plovdiv",
+      "parties",
+      "cocktails",
+      "vibe",
+      "nightlife",
+    ];
+  } else if (locale === "en") {
+    title = "Bar The Post | barthepost.bg";
+    (description =
+      "Immerse yourself in the world of mixology, where every order carries the signature of our bartenders...and the cocktails tell stories you’ll want to hear again and again..."),
+      (keywords = [
+        "Пощата",
+        "бар Пощата",
+        "ППощата Пловдив",
+        "бар Пловдив",
+        "Пловдив",
+        "коктейл бар Пловдив",
+        "парти",
+        "коктейли",
+        "атмосфера",
+        "нощен живот",
+        "bar The Post",
+        "The Post Plovdiv",
+        "bar Plovdiv",
+        "Plovdiv",
+        "cocktail bar Plovdiv",
+        "parties",
+        "cocktails",
+        "vibe",
+        "nightlife",
+      ]);
+  }
 
-//   const alternates = {
-//     canonical: locale === "en" ? "/en" : "/",
-//     languages: {
-//       bg: "/bg",
-//       en: "/en",
-//     },
-//   };
+  const alternates = {
+    canonical: locale === "en" ? "/en" : "/",
+    languages: {
+      bg: "/bg",
+      en: "/en",
+    },
+  };
 
-//   const metadataBase = new URL("https://q-bar.bg");
+  const metadataBase = new URL("https://barthepost.bg");
 
-//   return {
-//     title,
-//     description,
-//     keywords,
-//     alternates,
-//     metadataBase,
-//   };
-// }
+  return {
+    title,
+    description,
+    keywords,
+    alternates,
+    metadataBase,
+  };
+}
 
 export default function RootLayout({
   children,

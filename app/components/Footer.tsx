@@ -8,7 +8,7 @@ import logoSavy from "@/public/savy.svg";
 export default function Footer(): JSX.Element {
   return (
     <div
-      className="max-w-screen mt-20 bg-[url(/bg-mobile.png)] sm:bg-[url(/bg.png)]"
+      className="max-w-screen mt-20 bg-[url(/bg-mobile.webp)] sm:bg-[url(/bg.webp)]"
       style={{
         backgroundSize: "cover",
         backgroundPosition: "center",

@@ -12,7 +12,7 @@ body {
 
 body {
   color: #30312a;
-  background-image: url("/bg.png");
+  background-image: url("/bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,7 +21,7 @@ body {
 
 @media (max-width: 600px) {
   body {
-    background-image: url("/bg-mobile.png");
+    background-image: url("/bg-mobile.webp");
   }
 }
 

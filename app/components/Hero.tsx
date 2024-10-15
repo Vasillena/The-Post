@@ -3,7 +3,7 @@ import { KyivMachine, LemonTuesday } from "../utils/fonts";
 import Image from "next/image";
 import Link from "next/link";
 import MainButton from "./MainButton";
-import cocktail from "@/public/hero-2.png";
+import cocktail from "@/public/hero-2.webp";
 import decor from "@/public/decor-6.png";
 import { getI18n } from "@/locales/server";
 import socials1 from "@/public/socials-1.png";
@@ -16,7 +16,7 @@ export default async function Hero(): Promise<JSX.Element> {
     <>
       <section className="max-w-[1440px] mx-auto relative h-screen">
         <div
-          className={`w-full h-full grid grid-rows-1 grid-cols-1 xl:grid-cols-2 justify-center items-center px-4 sm:px-10 md:bg-[url(/hero1.png)] md:bg-cover md:bg-no-repeat md:bg-center`}
+          className={`w-full h-full grid grid-rows-1 grid-cols-1 xl:grid-cols-2 justify-center items-center px-4 sm:px-10 md:bg-[url(/hero.webp)] md:bg-cover md:bg-no-repeat md:bg-center`}
           style={{
             backgroundSize: "94%",
             backgroundRepeat: "no-repeat",
@@ -47,7 +47,7 @@ export default async function Hero(): Promise<JSX.Element> {
               className={`mt-8 mb-10 xl:mb-20 text-lg lg:text-xl ${LemonTuesday.className}`}
               style={{ lineHeight: "2.5rem" }}
             >
-              {t("hero.text-2")}
+              {t("hero.text-2")} <br /> {t("hero.text-3")}
             </p>
             <div className="flex justify-center xl:justify-start">
               <MainButton href={"/#contact"} text={t("hero.button")} />
@@ -67,7 +67,7 @@ export default async function Hero(): Promise<JSX.Element> {
             target="_blank"
             className="relative inline-block transition-shadow duration-300 ease-in-out"
           >
-            <Image src={socials1} alt="Facebook" className="w-6 h-auto" />
+            <Image src={socials2} alt="Facebook" className="w-6 h-auto" />
           </Link>
           <Link
             href="https://www.instagram.com/barthepost/"
@@ -75,7 +75,7 @@ export default async function Hero(): Promise<JSX.Element> {
             target="_blank"
             className="relative inline-block transition-shadow duration-300 ease-in-out"
           >
-            <Image src={socials2} alt="Instagram" className="w-6 h-auto" />
+            <Image src={socials1} alt="Instagram" className="w-6 h-auto" />
           </Link>
         </div>
       </section>

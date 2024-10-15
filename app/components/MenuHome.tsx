@@ -3,7 +3,7 @@ import { KyivMachine, LemonTuesday } from "../utils/fonts";
 import Image from "next/image";
 import MainButton from "./MainButton";
 import Reveal from "./Animations/Reveal";
-import decor1 from "@/public/decor-4.png";
+import decor1 from "@/public/decor-4.webp";
 import { getI18n } from "@/locales/server";
 
 type MenuHomeCardProps = {
@@ -18,7 +18,7 @@ export function MenuHomeCard({
   description,
 }: MenuHomeCardProps) {
   return (
-    <div className="relative w-full mx-auto flex flex-col z-20">
+    <div className="relative w-full mx-auto flex flex-col z-20 mt-2">
       <div className="flex items-center">
         <h4 className="font-bold text-[16px] md:text-[20px]">{drinkName}</h4>
         <span className="flex-grow border-b border-dotted mx-2 pt-1.5 border-gray-300 md:border-black" />

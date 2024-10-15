@@ -9,8 +9,8 @@ export default {
     title: " Welcome to",
     "title-2": "Bar “The Post“",
     text: "  Immerse yourself in the world of mixology, where every order carries the signature of our bartenders...",
-    "text-2":
-      "... and the cocktails tell stories you’ll want to hear again and again...",
+    "text-2": "... and the cocktails tell stories",
+    "text-3": "you’ll want to hear again and again...",
     button: "CONTACT US",
   },
   second: {
@@ -39,7 +39,7 @@ export default {
       "Rum blend, Poppy Liqueur, Orange and Coffee cordial, Lemon juice, Pineapple juice",
     "cocktail-3":
       "Skinos Liqueur, Votanikon Gin, Watermelon cordial, Cucumber and basil, Saline solution, Sparkling water",
-    button: "See More",
+    button: "SEE MORE",
   },
   contacts: {
     title: "Contact Us",
