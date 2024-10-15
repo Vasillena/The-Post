@@ -40,29 +40,20 @@ export async function generateMetadata({
     ];
   } else if (locale === "en") {
     title = "Bar The Post | barthepost.bg";
-    (description =
-      "Immerse yourself in the world of mixology, where every order carries the signature of our bartenders...and the cocktails tell stories you’ll want to hear again and again..."),
-      (keywords = [
-        "Пощата",
-        "бар Пощата",
-        "ППощата Пловдив",
-        "бар Пловдив",
-        "Пловдив",
-        "коктейл бар Пловдив",
-        "парти",
-        "коктейли",
-        "атмосфера",
-        "нощен живот",
-        "bar The Post",
-        "The Post Plovdiv",
-        "bar Plovdiv",
-        "Plovdiv",
-        "cocktail bar Plovdiv",
-        "parties",
-        "cocktails",
-        "vibe",
-        "nightlife",
-      ]);
+    description =
+      "Immerse yourself in the world of mixology, where every order carries the signature of our bartenders...and the cocktails tell stories you’ll want to hear again and again...";
+    keywords = [
+      "The Post",
+      "bar The Post",
+      "The Post Plovdiv",
+      "bar Plovdiv",
+      "Plovdiv",
+      "cocktail bar Plovdiv",
+      "parties",
+      "cocktails",
+      "vibe",
+      "nightlife",
+    ];
   }
 
   const alternates = {
