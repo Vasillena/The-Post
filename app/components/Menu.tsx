@@ -2,6 +2,7 @@
 
 import { KyivMachine, LemonTuesday } from "@/app/utils/fonts";
 import { useCurrentLocale, useI18n } from "@/locales/client";
+import { useMemo, useState } from "react";
 
 import Image from "next/image";
 import MenuCard from "./MenuCard";
@@ -12,7 +13,6 @@ import decor4 from "@/public/decor-10.png";
 import decor5 from "@/public/decor-11.png";
 import menuListBG from "../menuList/menuListBG.json";
 import menuListEN from "../menuList/menuList.json";
-import { useState } from "react";
 
 export default function Menu() {
   const t = useI18n();
@@ -21,27 +21,22 @@ export default function Menu() {
 
   const menuList = locale === "bg" ? menuListBG : menuListEN;
 
-  let imageDecor = decor1;
-
-  switch (selectedTab) {
-    case "Non-alcoholic Drinks":
-      imageDecor = decor1;
-      break;
-    case "Mixed Drinks":
-      imageDecor = decor2;
-      break;
-    case "Wine":
-      imageDecor = decor3;
-      break;
-    case "Alcohol":
-      imageDecor = decor4;
-      break;
-    case "Beer":
-      imageDecor = decor5;
-      break;
-    default:
-      break;
-  }
+  const imageDecor = useMemo(() => {
+    switch (selectedTab) {
+      case "Non-alcoholic Drinks":
+        return decor1;
+      case "Mixed Drinks":
+        return decor2;
+      case "Wine":
+        return decor3;
+      case "Alcohol":
+        return decor4;
+      case "Beer":
+        return decor5;
+      default:
+        return decor1;
+    }
+  }, [selectedTab]);
 
   const renderMenu = () => {
     const selectedCategory = menuList.menu.filter(
@@ -125,13 +120,13 @@ export default function Menu() {
             <h1
               className={`text-6xl lg:text-8xl text-center ${KyivMachine.className}`}
             >
-              МЕНЮ
+              {t("menu.title")}
             </h1>
             <div className="hidden md:flex justify-center z-10">
               <Image
                 src={imageDecor}
                 alt="Cocktails"
-                className="w-[480px] h-auto"
+                className="w-[400px] h-auto"
               />
             </div>
             <p
@@ -145,8 +140,7 @@ export default function Menu() {
             <div className="flex flex-col items-center mt-16 sm:mt-20">
               <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-0 sm:gap-1">
                 <MenuCard
-                  text1={t("menu.softDrinks-1")}
-                  text2={t("menu.softDrinks-2")}
+                  text1={t("menu.softDrinks")}
                   onClick={() => setSelectedTab("Non-alcoholic Drinks")}
                   active={selectedTab === "Non-alcoholic Drinks"}
                 />

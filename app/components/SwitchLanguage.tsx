@@ -19,7 +19,7 @@ export function SwitchLanguage(): JSX.Element {
         <button
           type="button"
           onClick={handleChangeToEnglish}
-          className="fixed top-32 -left-2 w-12 h-10 flex items-center justify-center text-[#30312a] z-50"
+          className="fixed top-32 -right-2 w-12 h-10 flex items-center justify-center text-[#30312a] z-50"
           style={{
             backgroundImage: `url(${stamp.src})`,
             backgroundSize: "cover",
@@ -34,7 +34,7 @@ export function SwitchLanguage(): JSX.Element {
         <button
           type="button"
           onClick={handleChangeToBulgarian}
-          className="fixed top-32 -left-2 w-12 h-10 flex items-center justify-center text-[#30312a] z-50"
+          className="fixed top-32 -right-2 w-12 h-10 flex items-center justify-center text-[#30312a] z-50"
           style={{
             backgroundImage: `url(${stamp.src})`,
             backgroundSize: "cover",

@@ -6,71 +6,56 @@ export default {
     contact: "Contact",
   },
   hero: {
-    title: "Rhythms, cocktails and unforgettable nights at Q",
-    "title-2": "Where every night is a masterpiece!",
-    text: "Immerse yourself in a world where great beats meet the art of cocktails. Expect more than just a night out – expect an experience.",
-    button: "Save your spot for the next party",
-    countdown: "Until the next party...",
-    days: "DAYS",
-    hours: "HOURS",
-    minutes: "MINUTES",
-    seconds: "SECONDS",
+    title: " Welcome to",
+    "title-2": "Bar “The Post“",
+    text: "  Immerse yourself in the world of mixology, where every order carries the signature of our bartenders...",
+    "text-2":
+      "... and the cocktails tell stories you’ll want to hear again and again...",
+    button: "CONTACT US",
   },
-  events: {
-    title: "Upcoming Events",
-    month: "October",
-    "day-1": "tuesday",
-    "day-2": "thursday",
-    "day-3": "friday",
-    "day-4": "saturday",
-    "no-event-1": "Stay Tuned",
-    "no-event-2": "for",
-    "no-event-3": "Upcoming Events",
+  second: {
+    title:
+      " Every drink at Bar “The Post” is a letter to you – sealed with history, taste and inspiration",
+    "text-1":
+      " Our cocktails are not just drinks, but stories written by masters of mixology.",
+    "text-2":
+      "In Bar “The Post” every cocktail carries the signature of the bartender – inspired by the classics, but always with something unexpected. From fresh combinations that will hit you like a letter on a summer day, to stronger flavors that leave a deep impression, our mixologists create drinks that tell stories with every sip. Are you ready to hear the next one?",
+    button: "OUR MENU",
   },
   about: {
-    title: "     About us",
+    title: "Bar “The Post”",
     "text-1":
-      "              Welcome to Q – where cocktails and art come together. Q is not just a cocktail bar – it’s a destination of flavors and creativity. We created this unique space to offer our guests an experience that blends the sophistication of cocktails with the magic of music.",
+      "Bar “The Post” is a place with its own spirit, located in the heart of Plovdiv, next to the emblematic building of the Post Office.",
     "text-2":
-      "  Our team doesn’t just craft cocktails; we create parties that become stories to tell. With carefully selected ingredients and innovative techniques, every drink at Q is a unique masterpiece.",
+      "The atmosphere here intertwines history and modernity, inspired by retro elements such as mailboxes, old phones and stamps. Every corner carries a memory of the past, but with a modern sound, which makes Bar “The Post” a unique place for meetings and shared moments.",
     "text-3":
-      "         Join us and discover the magic of Q – where art and pleasure meet in perfect harmony. We look forward to welcoming you!",
+      "Here the cocktails are created with care by experienced mixologists and tell stories with every sip. In Bar “The Post” every order carries the signature of the bartender, who puts passion and inspiration into every recipe. Whether you are looking for something light and refreshing or prefer stronger flavors, here you will find your perfect drink in a friendly and cozy atmosphere.",
   },
   cocktails: {
-    title: "Cocktail Journeys",
-    "text-1":
-      "            At Q, we believe every cocktail should be an experience. Our masterfully crafted cocktails blend art, innovation, and attention to detail to deliver unique flavors that will surprise and inspire you. ",
-    "text-2":
-      "Explore our diverse range of signature cocktails designed to awaken your senses and take you on an unforgettable journey. Share your preferences with us, and we'll create something special just for you.",
-    "text-3":
-      "          At Q, cocktails are not just drinks—they are a manifestation of passion and creativity. Come and discover your new favorite cocktail.",
-    button: "Discover more",
-  },
-  food: {
-    title: "Gourmet Delights",
-    "text-1":
-      "At Q, it’s not just the cocktails that are top-notch—our master chefs create irresistible dishes inspired by the global culinary scene, using only the freshest and highest-quality ingredients. ",
-    "text-2":
-      "Each day, you’ll find our daily specials prepared with care and attention to detail, enhancing your experience at Q. Enjoy a flavor adventure that perfectly complements our cocktails and creates an unforgettable atmosphere in the heart of Kapana.",
+    title: "We recommend",
+    "cocktail-1":
+      "El Jimador Tequila, Mandarine Napoleon Liqueur, Gochujang syrop, Lime juice, Three Cent Grapefruit soda",
+    "cocktail-2":
+      "Rum blend, Poppy Liqueur, Orange and Coffee cordial, Lemon juice, Pineapple juice",
+    "cocktail-3":
+      "Skinos Liqueur, Votanikon Gin, Watermelon cordial, Cucumber and basil, Saline solution, Sparkling water",
+    button: "See More",
   },
   contacts: {
-    "text-1": "Contacts ",
-    "text-2": "Address",
-    "text-2-1": "Bratq Pulievi 1,",
-    "text-2-2": "Plovdiv, Bulgaria 4000",
-    "text-3": "Working hours",
-    "text-3-1": "Monday - Sunday 9:00 - 3:00",
-    "text-4": "Follow us",
+    title: "Contact Us",
+    "text-1": "Address",
+    "text-1-1": "Gladston 8 Street,",
+    "text-1-2": "Plovdiv, Bulgaria 4000",
+    "text-2": "Contacts",
+    "text-3": "Working Hours",
+    "text-3-1": "Sunday - Thursday 10:00 - 1:00",
+    "text-3-2": "Friday - Saturday 10:00 - 3:00",
+    "text-4": "Follow Us",
   },
   menu: {
-    title:
-      "We take care of the music, food, and drinks according to your preferences, while you enjoy the good mood and the company of your friends.",
-    "title-2": "COCKTAILS FIRST",
-    text: "...because no great story ever started with a glass of water.",
-    menu: "VIEW MENU",
-    "softDrinks-1": "Non-alcoholic",
-    "softDrinks-2": "Drinks",
-    mixedDrinks: "Coctails",
+    title: "MENU",
+    softDrinks: "Non-alcoholic",
+    mixedDrinks: "Cocktails",
     wine: "Wine",
     alcohol: "Alcohol",
     beer: "Beer",

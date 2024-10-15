@@ -74,7 +74,7 @@ export default function MainNav({
         <Link
           key={link.href}
           href={link.href}
-          className={`flex items-center text-xl hover:text-[#DCBB94] ${KyivMachine.className}`}
+          className={`flex items-center text-xl hover:text-[#967f65] ${KyivMachine.className}`}
           onClick={() => {
             if (link.id) {
               handleScroll(link.id, link.href);
@@ -92,7 +92,7 @@ export default function MainNav({
         <Link
           key={link.href}
           href={link.href}
-          className={`flex items-center text-xl hover:text-[#DCBB94] ${KyivMachine.className}`}
+          className={`flex items-center text-xl hover:text-[#967f65] ${KyivMachine.className}`}
           onClick={() => {
             if (link.id) {
               handleScroll(link.id, link.href);

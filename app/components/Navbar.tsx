@@ -108,13 +108,30 @@ export default function Navbar(): JSX.Element {
       {open && (
         <motion.div
           ref={menuRef}
-          className="fixed top-16 left-0 z-50 w-[41.5%] rounded-br-[3rem] flex flex-col justify-center bg-[#e4ded4]  py-8 pl-2"
+          className="fixed top-0 left-0 z-50 w-1/2 h-screen flex flex-col justify-center bg-[url(/bg-mobile.png)] py-8 pl-2 border-r border-[#30312a]"
+          style={{
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundAttachment: "fixed",
+          }}
           initial={{ x: "-100%" }}
           animate={{ x: 0 }}
           exit={{ x: "-100%" }}
           transition={{ duration: 0.5, ease: "easeOut" }}
         >
           <div>
+            <button onClick={() => setOpen(!open)}>
+              <Image
+                src={close}
+                alt="Close image"
+                className="fixed top-4 left-6"
+                style={{
+                  width: "32px",
+                  height: "auto",
+                }}
+              />
+            </button>
             <MainNav closeMenu={closeMenu} />
           </div>
         </motion.div>

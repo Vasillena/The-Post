@@ -5,10 +5,13 @@ import Link from "next/link";
 import MainButton from "./MainButton";
 import cocktail from "@/public/hero-2.png";
 import decor from "@/public/decor-6.png";
+import { getI18n } from "@/locales/server";
 import socials1 from "@/public/socials-1.png";
 import socials2 from "@/public/socials-2.png";
 
-export function Hero(): JSX.Element {
+export default async function Hero(): Promise<JSX.Element> {
+  const t = await getI18n();
+
   return (
     <>
       <section className="max-w-[1440px] mx-auto relative h-screen">
@@ -30,26 +33,24 @@ export function Hero(): JSX.Element {
           </div>
           <div className="xl:mr-14 max-w-[600px] xl:max-w-[440px] justify-self-center text-center xl:text-left">
             <h1
-              className={`mb-10 xl:mb-32 text-3xl lg:text-4xl ${KyivMachine.className}`}
+              className={`mb-8 xl:mb-32 text-3xl lg:text-4xl ${KyivMachine.className}`}
             >
-              Заповядай в <br /> Bar “The Post”
+              {t("hero.title")} <br /> {t("hero.title-2")}
             </h1>
             <p
               className={`text-xl lg:text-2xl underline underline-offset-8 ${KyivMachine.className}`}
               style={{ lineHeight: "3rem" }}
             >
-              Потопи се в света на миксологията, където зад всяка поръчка стои
-              почеркът на нашите бармани...
+              {t("hero.text")}
             </p>
             <p
               className={`mt-8 mb-10 xl:mb-20 text-lg lg:text-xl ${LemonTuesday.className}`}
               style={{ lineHeight: "2.5rem" }}
             >
-              ... а коктейлите разказват истории, <br /> които ще искаш да чуеш
-              отново и отново...
+              {t("hero.text-2")}
             </p>
             <div className="flex justify-center xl:justify-start">
-              <MainButton href={"/#contact"} text={"СВЪРЖИ СЕ С НАС"} />
+              <MainButton href={"/#contact"} text={t("hero.button")} />
             </div>
           </div>
         </div>
