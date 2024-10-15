@@ -2,10 +2,18 @@ import { KyivMachine } from "../utils/fonts";
 import Link from "next/link";
 import button from "@/public/button.png";
 
-export default function MainButton() {
+interface MainButtonProps {
+  href: string;
+  text: string;
+}
+
+export default function MainButton({
+  href,
+  text,
+}: MainButtonProps): JSX.Element {
   return (
     <Link
-      href="/#contact"
+      href={href}
       className="relative w-44 lg:w-60 h-10 lg:h-14 flex items-center justify-center text-white text-sm lg:text-base"
       style={{
         backgroundImage: `url(${button.src})`,
@@ -13,7 +21,7 @@ export default function MainButton() {
         backgroundPosition: "center",
       }}
     >
-      <span className={`z-10 ${KyivMachine.className}`}>СВЪРЖИ СЕ С НАС</span>
+      <span className={`z-10 ${KyivMachine.className}`}>{text}</span>
     </Link>
   );
 }

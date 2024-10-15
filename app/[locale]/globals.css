@@ -20,6 +20,12 @@ body {
   background-attachment: fixed;
 }
 
+@media (max-width: 600px) {
+  body {
+    background-image: url("/bg-mobile.png");
+  }
+}
+
 body::-webkit-scrollbar {
   display: none;
 }

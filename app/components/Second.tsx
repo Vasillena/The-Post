@@ -37,7 +37,7 @@ export function Second(): JSX.Element {
               следващата?
             </p>
             <div className="flex justify-center lg:justify-start">
-              <MainButton />
+              <MainButton href={"/menu"} text={"НАШЕТО МЕНЮ"} />
             </div>
           </div>
           <div className="justify-self-center lg:justify-self-end order-1 lg:order-2">
