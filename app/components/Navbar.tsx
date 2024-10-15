@@ -54,9 +54,8 @@ export default function Navbar(): JSX.Element {
   return (
     <div className="max-w-[1440px]">
       <div
-        className="max-w-[1440px] hidden fixed top-0 left-0 right-0 mx-auto md:block z-50"
+        className="max-w-[1440px] hidden fixed top-0 left-0 right-0 mx-auto md:block z-50 bg-[url(/bg-mobile.png)] sm:bg-[url(/bg.png)]"
         style={{
-          backgroundImage: 'url("/bg.png")',
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -73,9 +72,8 @@ export default function Navbar(): JSX.Element {
       </div>
       <div
         className="
-           max-w-[1440px] block fixed top-0 left-0 right-0 mx-auto md:hidden z-50"
+           max-w-[1440px] block fixed top-0 left-0 right-0 mx-auto md:hidden z-50 bg-[url(/bg-mobile.png)] sm:bg-[url(/bg.png)]"
         style={{
-          backgroundImage: 'url("/bg.png")',
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
