@@ -21,7 +21,7 @@ export default async function Second(): Promise<JSX.Element> {
           <div className="w-full grid grid-cols-1 lg:grid-cols-2 justify-between items-center gap-20">
             <div className="justify-self-center text-center lg:text-left order-2 lg:order-1">
               <h1
-                className={`block lg:hidden xl:block text-3xl lg:text-4xl ${KyivMachine.className}`}
+                className={`block lg:hidden xl:block text-2xl lg:text-4xl ${KyivMachine.className}`}
               >
                 {t("second.title")}
               </h1>

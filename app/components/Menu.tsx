@@ -85,7 +85,9 @@ export default function Menu() {
               // className="w-full mx-auto flex flex-col"
             >
               {item["semi-category"] && (
-                <h3 className="text-center mt-2 text-[20px] md:text-[24px]">
+                <h3
+                  className={`text-center mt-2 text-[22px] md:text-[24px] ${KyivMachine.className}`}
+                >
                   {item["semi-category"]}
                 </h3>
               )}

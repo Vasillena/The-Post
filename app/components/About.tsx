@@ -11,7 +11,7 @@ export default async function About(): Promise<JSX.Element> {
   return (
     <>
       <Reveal initial={{ x: "5%" }} animate={{ x: "0%" }}>
-        <section className="max-w-[1440px] mx-auto px-4 sm:px-6 xl:px-0 mt-10 sm:mt-32">
+        <section className="max-w-[1440px] mx-auto px-4 sm:px-6 xl:px-0 mt-10 xl:mt-32">
           <div className="w-full grid grid-cols-1 xl:grid-cols-4  items-center">
             <div className="xl:absolute flex justify-center z-10">
               <Image
@@ -22,7 +22,7 @@ export default async function About(): Promise<JSX.Element> {
             </div>
             <div className="xl:col-span-3 xl:col-start-2 border-4 border-[#30312a] px-4 sm:px-20 xl:pl-60 xl:pr-10 py-16 -mt-28 sm:-mt-40 xl:mt-0 text-center lg:text-left">
               <h1
-                className={`relative text-3xl lg:text-4xl z-20 ${KyivMachine.className}`}
+                className={`relative text-2xl lg:text-4xl z-20 ${KyivMachine.className}`}
               >
                 {t("about.title")}
               </h1>
@@ -44,7 +44,7 @@ export default async function About(): Promise<JSX.Element> {
       </Reveal>
 
       <section
-        className="max-w-[1440px] mx-auto w-full h-[300px] sm:h-[560px] mt-20 sm:mt-32 sm:bg-fixed bg-center bg-contain bg-[url(/decor-3-mobile.png)] sm:bg-[url(/decor-3.png)]"
+        className="max-w-[1440px] mx-auto w-full h-[300px] sm:h-[560px] mt-20 sm:mt-32 touch:bg-fixed bg-center bg-contain bg-[url(/decor-3-mobile.png)] sm:bg-[url(/decor-3.png)]"
         style={{
           backgroundRepeat: "no-repeat",
         }}

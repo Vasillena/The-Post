@@ -11,6 +11,9 @@ const config: Config = {
   },
   theme: {
     extend: {
+      screens: {
+        touch: { raw: "(hover: none) and (pointer: coarse)" },
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
