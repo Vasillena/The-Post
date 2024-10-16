@@ -44,7 +44,7 @@ export default async function About(): Promise<JSX.Element> {
       </Reveal>
 
       <section
-        className="max-w-[1440px] mx-auto w-full h-[300px] sm:h-[560px] mt-20 sm:mt-32 touch:bg-fixed bg-center bg-contain bg-[url(/decor-3-mobile.png)] sm:bg-[url(/decor-3.png)]"
+        className="max-w-[1440px] mx-auto w-full h-[300px] sm:h-[560px]  mt-20 sm:mt-32 bg-center bg-contain bg-fixed touch:bg-scroll bg-[url(/decor-3-mobile.png)] sm:bg-[url(/decor-3.png)]"
         style={{
           backgroundRepeat: "no-repeat",
         }}
