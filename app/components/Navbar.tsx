@@ -14,8 +14,21 @@ import { usePathname } from "next/navigation";
 export default function Navbar(): JSX.Element {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 1);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const closeMenu = useCallback(() => {
     setOpen(false);
@@ -54,7 +67,11 @@ export default function Navbar(): JSX.Element {
   return (
     <div className="max-w-[1440px]">
       <div
-        className="max-w-[1440px] hidden fixed top-0 left-0 right-0 mx-auto md:block z-50 bg-[url(/bg-mobile.webp)] sm:bg-[url(/bg.webp)]"
+        className={`max-w-[1440px] hidden fixed top-0 left-0 right-0 mx-auto md:block z-50 transition-all duration-500 ${
+          isScrolled
+            ? "bg-[url(/bg-mobile.webp)] sm:bg-[url(/bg.webp)]"
+            : "bg-transparent"
+        }`}
         style={{
           backgroundSize: "cover",
           backgroundPosition: "center",

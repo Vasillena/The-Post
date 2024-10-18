@@ -36,7 +36,7 @@ export default async function MenuHome(): Promise<JSX.Element> {
 
   return (
     <Reveal initial={{ x: "-5%" }} animate={{ x: "0%" }}>
-      <section className="max-w-[1440px] mx-auto px-4 sm:px-6 xl:px-0 sm:mt-20">
+      <section className="max-w-[1440px] mx-auto px-4 sm:px-6 xl:px-0 sm:-mt-32 md:-mt-24 lg:mt-0 xl:mt-20">
         <div className="w-full grid grid-cols-1 xl:grid-cols-4 items-center">
           <div className="xl:col-span-3 border-4 border-[#30312a] px-4 sm:px-20 xl:pl-10 xl:pr-52 py-16 -mt-28 sm:-mt-40 xl:mt-0 order-2 xl:order-1">
             <h2
