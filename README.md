@@ -114,7 +114,7 @@ The Post is a real place in Plovdiv and this is it's official website. All visit
 ## 📷 Screenshots
 
 
-![Screenshot 1](https://github.com/user-attachments/assets/616734c9-874c-4394-b960-f8aecb0bc360)
+![Screenshot 1](https://github.com/user-attachments/assets/18c5f0fe-48ac-471c-aac8-be60baf2f9aa)
 ![Screenshot 2](https://github.com/user-attachments/assets/bddf1d0d-00c1-402e-9140-f5444c1d9388)
 ![Screenshot 3](https://github.com/user-attachments/assets/4aff5590-b6ba-438a-9181-cc4210c1ea0b)
 ![Screenshot 4](https://github.com/user-attachments/assets/23694cda-4304-4961-be45-8b99f7821447)
