@@ -114,14 +114,14 @@ The Post is a real place in Plovdiv and this is it's official website. All visit
 ## 📷 Screenshots
 
 
-![Screenshot 1](https://github.com/user-attachments/assets/b0d25198-7d53-48c0-8d5c-446fa2c7fe5d)
-![Screenshot 2](https://github.com/user-attachments/assets/bd72ba12-d875-458b-a3a0-bb1983fb1364)
-![Screenshot 3](https://github.com/user-attachments/assets/2c6e2893-7752-4528-8d91-a8b290f7d9aa)
-![Screenshot 4](https://github.com/user-attachments/assets/98449a6a-432d-4a43-8584-f77322d6e14d)
-![Screenshot 5](https://github.com/user-attachments/assets/ecb1ad38-680b-4b1b-834b-669791c97d49)
-![Screenshot 6](https://github.com/user-attachments/assets/1064791c-9e4b-4607-8ab8-2dc5f12d5e0d)
-![Screenshot 7](https://github.com/user-attachments/assets/0014ed38-2cb2-4657-a509-6a66113b5f20)
-![Screenshot 8](https://github.com/user-attachments/assets/047f61db-0277-4468-89ab-8722845d137c)
+![Screenshot 1](https://github.com/user-attachments/assets/616734c9-874c-4394-b960-f8aecb0bc360)
+![Screenshot 2](https://github.com/user-attachments/assets/bddf1d0d-00c1-402e-9140-f5444c1d9388)
+![Screenshot 3](https://github.com/user-attachments/assets/4aff5590-b6ba-438a-9181-cc4210c1ea0b)
+![Screenshot 4](https://github.com/user-attachments/assets/23694cda-4304-4961-be45-8b99f7821447)
+![Screenshot 5](https://github.com/user-attachments/assets/09860e76-225b-4eee-8fd7-21e1182a416e)
+![Screenshot 6](https://github.com/user-attachments/assets/bab7c6fc-edbf-4a3d-bbbd-3faf9c734db0)
+![Screenshot 7](https://github.com/user-attachments/assets/5f976b9d-5085-4655-87d3-295e5788d78e)
+![Screenshot 8](https://github.com/user-attachments/assets/48b02a67-6d7a-476a-92fc-2c7774c2a2f8)
 
 
 </div>
