@@ -11,6 +11,10 @@ Immerse yourself in the world of mixology, where every order carries the signatu
 you’ll want to hear again and again...
    <br/>
 This project is built with Next.js, Tailwind and Framer Motion.
+   <br/>
+Design by: Snezhana Aleksieva 
+   <br/>
+https://www.behance.net/snezhana-aleksieva
 
 View project at: https://the-post-pied.vercel.app
 
