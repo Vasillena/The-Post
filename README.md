@@ -16,7 +16,7 @@ Design by: Snezhana Aleksieva
    <br/>
 https://www.behance.net/snezhana-aleksieva
 
-View project at: https://the-post-pied.vercel.app
+View project at: https://barthepost.bg
 
 
 ## 📜 Table of Contents
