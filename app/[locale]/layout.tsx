@@ -14,13 +14,13 @@ export async function generateMetadata({
   let title, description, keywords;
 
   if (locale === "bg") {
-    title = "Bar The Post | barthepost.bg";
+    title = "Бар Пощата | barthepost.bg";
     description =
       "Потопи се в света на миксологията, където зад всяка поръчка стои почеркът на нашите бармани... а коктейлите разказват истории, които ще искаш да чуеш отново и отново...";
     keywords = [
       "Пощата",
       "бар Пощата",
-      "ППощата Пловдив",
+      "Пощата Пловдив",
       "бар Пловдив",
       "Пловдив",
       "коктейл бар Пловдив",
