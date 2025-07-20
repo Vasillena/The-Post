@@ -43,7 +43,16 @@ export async function generateMetadata({
     description =
       "Immerse yourself in the world of mixology, where every order carries the signature of our bartenders...and the cocktails tell stories you’ll want to hear again and again...";
     keywords = [
-      "The Post",
+      "Пощата",
+      "бар Пощата",
+      "Пощата Пловдив",
+      "бар Пловдив",
+      "Пловдив",
+      "коктейл бар Пловдив",
+      "парти",
+      "коктейли",
+      "атмосфера",
+      "нощен живот",
       "bar The Post",
       "The Post Plovdiv",
       "bar Plovdiv",
